@@ -1,0 +1,35 @@
+//HARJOITUS 9 JANI TUOMAALA
+
+#include <iostream>
+using namespace std;
+void main()
+
+{
+	int luku1, luku2, valinta;
+	cout << "Syötä kaksi lukua. \n";
+	cin >> luku1;
+	cin >> luku2;
+	cout << "Valitse laskutoimitus.\n1. Summa\n2. Erotus\n3. Tulo\n4. Osamäärä\n5. Jakojäännös\n";
+	cin >> valinta;
+	if (valinta == 1)
+	{
+		cout << (luku1 + luku2);
+	}
+	if (valinta == 2)
+	{
+		cout << (luku1 - luku2);
+	}
+	if (valinta == 3)
+	{
+		cout << (luku1 * luku2);
+	}
+	if (valinta == 4)
+	{
+		cout << (luku1 / luku2);
+	}
+	if (valinta == 5)
+	{
+		cout << (luku1 % luku2);
+	}
+	cout << "\n";
+}
